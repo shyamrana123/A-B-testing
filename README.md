@@ -12,14 +12,17 @@ Test Group: Clients experienced the new, spruced-up digital interface.
 
 Both groups navigated through an identical process sequence: an initial page, three subsequent steps, and finally, a confirmation page signaling process completion.
 
-# Goal
--Whether the new design leads to a better user experience
--Whehter the new design leads to a higher process completion rate
+## Goal
+
+-To find whether the new design leads to a higher process completion rate.
+
+-To find whether the new design leads to a better user experience.
+
 
 ## Data Overview
 We have the following datasets:
 - Client Profiles: Demographics like age, gender, and account details.
-- Client Roster: List indicating which clients were the part of the experiment and whether they belonged to the test group or the control group.
+- Client Roster: List indicating which clients belonged to the test group or the control group.
 - Client Activity: A detailed trace of client interactions online.
 
 
@@ -42,13 +45,15 @@ To understand the nature and structure of datasets, initial exploration was done
 
 ## Hypothesis testing: Statically proved through analysis
 
-COMPLETION RATE
+COMPLETION RATE:
+
 H0: The completion rate is lower for the new interface. 
 H1: The completion rate is higher for new interface.
 
 P-value:  2.35e^-69 (We reject the null hypothesis.)
 
-TIME SPENT ON EACH STEP
+TIME SPENT ON EACH STEP:
+
 H0: Average time spent on the steps is longer on new interface.
 H1: Average time spent on the steps is shorter on new interface.  
 
